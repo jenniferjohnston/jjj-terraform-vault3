@@ -6,10 +6,10 @@ provider "aws" {
 
 module "vault1" {
   source  = "app.terraform.io/jjj/vault1/aws"
-  version = "1.0.0"
+  version = "1.1.0"
 }
 
 module "vault2" {
    source  = "app.terraform.io/jjj/vault2/aws"
-   version = "1.0.0"
+   version = "1.1.0"
 }
