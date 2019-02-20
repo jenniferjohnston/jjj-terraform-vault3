@@ -5,11 +5,11 @@ provider "aws" {
 }
 
 module "vault" {
-  source  = "./vault"
+  source  = "github.com/jenniferjohnston/jjj-terraform-vault"
   version = "0.0.5"
 }
 
 module "vault2" {
-   source  = "./vault2"
+   source  = "github.com/jenniferjohnston/jjj-terraform-vault2"
    version = "0.0.5"
 }
