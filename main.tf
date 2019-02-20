@@ -4,7 +4,7 @@ provider "aws" {
   region     = "us-east-1"
 }
 
-module "vault" {
+module "vault1" {
   source  = "app.terraform.io/jjj/vault1/aws"
   version = "1.0.0"
 }
